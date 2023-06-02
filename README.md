@@ -24,6 +24,12 @@ ChatGPT Plugins are in a beta and developer access is only available for limited
 - In prod run `yarn start`
 - Lint your code with `yarn lint`
 
+# Deployment
+
+- Adjust the URL of your API in
+  - `public/.well-known/ai-plugin.json`
+  - `public/openapi.yaml`
+
 # License
 
 MIT - 2023 - [Kevin Goedecke](https://kevingoedecke.com)
