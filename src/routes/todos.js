@@ -21,7 +21,7 @@ router.get('/:username', (req, res) => {
 
 router.delete('/:username', (req, res) => {
   const { username } = req.params;
-  const { todo_idx: todoIdx } = req.body;
+  const { todoIdx } = req.body;
   if (todoIdx >= 0 && todoIdx < TODOS[username].length) {
     TODOS[username].splice(todoIdx, 1);
   }
